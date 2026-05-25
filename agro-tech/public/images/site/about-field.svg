@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="h" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f4324"/>
+      <stop offset="100%" stop-color="#2d6a33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#h)"/>
+  <ellipse cx="960" cy="900" rx="800" ry="100" fill="rgba(0,0,0,0.2)"/>
+  <path d="M400 750 L550 580 L1100 560 L1350 680 L1400 750 Z" fill="rgba(255,255,255,0.15)"/>
+  <text x="80" y="120" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="32">Зелёное Поле — сельхозтехника</text>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d6a33"/>
+      <stop offset="100%" style="stop-color:#1a381f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="680" cy="720" rx="420" ry="60" fill="rgba(0,0,0,0.15)"/>
+  <path d="M360 620 L460 520 L800 500 L960 560 L1000 620 Z" fill="rgba(255,255,255,0.92)"/>
+  <rect x="500" y="460" width="200" height="120" rx="12" fill="rgba(255,255,255,0.85)"/>
+  <circle cx="420" cy="620" r="48" fill="#1a381f"/>
+  <circle cx="420" cy="620" r="28" fill="#374151"/>
+  <circle cx="900" cy="620" r="48" fill="#1a381f"/>
+  <circle cx="900" cy="620" r="28" fill="#374151"/>
+  <text x="60" y="80" fill="rgba(255,255,255,0.9)" font-family="system-ui,sans-serif" font-size="28" font-weight="600">Трактор</text>
+  <text x="60" y="130" fill="rgba(255,255,255,0.75)" font-family="system-ui,sans-serif" font-size="22">New Holland</text>
+  <text x="60" y="800" fill="white" font-family="system-ui,sans-serif" font-size="36" font-weight="700">New Holland T7.315</text>
+</svg>

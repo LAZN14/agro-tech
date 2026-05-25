@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-display: "Outfit", system-ui, sans-serif;
+
+  --color-agro-50: #f4f9f4;
+  --color-agro-100: #e3f0e3;
+  --color-agro-200: #c5dfc6;
+  --color-agro-300: #97c49a;
+  --color-agro-400: #64a368;
+  --color-agro-500: #3f8545;
+  --color-agro-600: #2d6a33;
+  --color-agro-700: #24542a;
+  --color-agro-800: #1f4324;
+  --color-agro-900: #1a381f;
+  --color-agro-950: #0d1f10;
+
+  --color-earth-50: #faf6f1;
+  --color-earth-100: #f2e8da;
+  --color-earth-200: #e4d0b5;
+  --color-earth-300: #d2b088;
+  --color-earth-400: #c08f5e;
+  --color-earth-500: #b37747;
+  --color-earth-600: #9a5f3a;
+  --color-earth-700: #7d4a31;
+  --color-earth-800: #673d2d;
+  --color-earth-900: #553427;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-agro-50 font-sans text-agro-950 antialiased dark:bg-agro-950 dark:text-agro-50;
+  }
+
+  ::selection {
+    @apply bg-agro-600 text-white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .surface-card {
+    @apply rounded-2xl border border-agro-200/60 bg-white shadow-sm dark:border-agro-700/60 dark:bg-agro-900;
+  }
+
+  @keyframes header-slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-48px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes logo-pop {
+    0% {
+      transform: scale(0.75) rotate(-12deg);
+      opacity: 0;
+    }
+    55% {
+      transform: scale(1.12) rotate(4deg);
+    }
+    100% {
+      transform: scale(1) rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes nav-fade-in {
+    from {
+      opacity: 0;
+      transform: translateX(-12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-header-slide-in {
+    animation: header-slide-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-logo-pop {
+    animation: logo-pop 0.65s cubic-bezier(0.34, 1.4, 0.64, 1) both;
+  }
+
+  .animate-nav-item {
+    animation: nav-fade-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}

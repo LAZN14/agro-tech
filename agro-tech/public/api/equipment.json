@@ -1,0 +1,301 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "slug": "john-deere-8r-410",
+      "name": "John Deere 8R 410",
+      "brand": "John Deere",
+      "category": "tractors",
+      "year": 2024,
+      "hours": 420,
+      "horsepower": 410,
+      "price": 18900000,
+      "condition": "used",
+      "featured": true,
+      "images": [
+        "/images/equipment/john-deere-8r-410-1.jpeg",
+        "/images/equipment/john-deere-8r-410-2.jpeg",
+        "/images/equipment/john-deere-8r-410-3.jpeg"
+      ],
+      "description": "Флагманский колёсный трактор с системой AutoTrac и премиальной кабиной.",
+      "specs": {
+        "transmission": "e23 PowerShift",
+        "drive": "4WD",
+        "weight": "12 400 кг",
+        "fuel": "Дизель"
+      }
+    },
+    {
+      "id": "2",
+      "slug": "claas-lexion-8800",
+      "name": "Claas Lexion 8800",
+      "brand": "Claas",
+      "category": "combines",
+      "year": 2023,
+      "hours": 680,
+      "horsepower": 790,
+      "price": 42500000,
+      "condition": "used",
+      "featured": true,
+      "images": [
+        "/images/equipment/claas-lexion-8800-1.jpeg",
+        "/images/equipment/claas-lexion-8800-2.jpeg",
+        "/images/equipment/claas-lexion-8800-3.jpeg"
+      ],
+      "description": "Зерноуборочный комбайн с широкозахватной жаткой и CEMOS AUTOMATIC.",
+      "specs": {
+        "tank": "15 000 л",
+        "header": "12 м",
+        "yield": "до 70 т/ч",
+        "drive": "4WD"
+      }
+    },
+    {
+      "id": "3",
+      "slug": "case-ih-magnum-380",
+      "name": "Case IH Magnum 380",
+      "brand": "Case IH",
+      "category": "tractors",
+      "year": 2022,
+      "hours": 1200,
+      "horsepower": 380,
+      "price": 14200000,
+      "condition": "used",
+      "featured": true,
+      "images": [
+        "/images/equipment/case-ih-magnum-380-1.jpeg",
+        "/images/equipment/case-ih-magnum-380-2.jpeg",
+        "/images/equipment/case-ih-magnum-380-3.jpeg"
+      ],
+      "description": "Мощный трактор для крупных хозяйств с AFS Pro 1200.",
+      "specs": {
+        "transmission": "CVXDrive",
+        "drive": "4WD",
+        "weight": "11 800 кг",
+        "gps": "AFS Pro"
+      }
+    },
+    {
+      "id": "4",
+      "slug": "new-holland-t7-315",
+      "name": "New Holland T7.315",
+      "brand": "New Holland",
+      "category": "tractors",
+      "year": 2025,
+      "hours": 85,
+      "horsepower": 315,
+      "price": 16750000,
+      "condition": "new",
+      "featured": true,
+      "images": [
+        "/images/equipment/new-holland-t7-315-1.jpeg",
+        "/images/equipment/new-holland-t7-315-2.jpeg",
+        "/images/equipment/new-holland-t7-315-3.jpeg"
+      ],
+      "description": "Новый трактор с PLM Intelligence и экономичным двигателем FPT.",
+      "specs": {
+        "transmission": "Auto Command",
+        "drive": "4WD",
+        "weight": "10 200 кг",
+        "warranty": "2 года"
+      }
+    },
+    {
+      "id": "5",
+      "slug": "amazone-ux-5200",
+      "name": "Amazone UX 5200 Super",
+      "brand": "Amazone",
+      "category": "sprayers",
+      "year": 2023,
+      "hours": 310,
+      "horsepower": 0,
+      "price": 8900000,
+      "condition": "used",
+      "images": [
+        "/images/equipment/amazone-ux-5200-1.jpeg",
+        "/images/equipment/amazone-ux-5200-2.jpeg",
+        "/images/equipment/amazone-ux-5200-3.jpeg"
+      ],
+      "description": "Самоходный опрыскиватель с штангой 42 м и системой AmaSelect.",
+      "specs": {
+        "tank": "5 200 л",
+        "boom": "42 м",
+        "gps": "Section Control",
+        "drive": "4WD"
+      }
+    },
+    {
+      "id": "6",
+      "slug": "fendt-939-vario",
+      "name": "Fendt 939 Vario",
+      "brand": "Fendt",
+      "category": "tractors",
+      "year": 2021,
+      "hours": 2100,
+      "horsepower": 390,
+      "price": 13400000,
+      "condition": "refurbished",
+      "images": [
+        "/images/equipment/fendt-939-vario-1.jpeg",
+        "/images/equipment/fendt-939-vario-2.jpeg",
+        "/images/equipment/fendt-939-vario-3.jpeg"
+      ],
+      "description": "Восстановленный Vario с полной диагностикой и гарантией 12 месяцев.",
+      "specs": {
+        "transmission": "Vario",
+        "drive": "4WD",
+        "weight": "11 500 кг",
+        "warranty": "12 мес."
+      }
+    },
+    {
+      "id": "7",
+      "slug": "rostselmash-torum-785",
+      "name": "Ростсельмаш Torum 785",
+      "brand": "Ростсельмаш",
+      "category": "combines",
+      "year": 2024,
+      "hours": 290,
+      "horsepower": 460,
+      "price": 28900000,
+      "condition": "used",
+      "images": [
+        "/images/equipment/rostselmash-torum-785-1.jpeg",
+        "/images/equipment/rostselmash-torum-785-2.jpeg",
+        "/images/equipment/rostselmash-torum-785-3.jpeg"
+      ],
+      "description": "Российский комбайн с жаткой 9 м, адаптирован под местные условия.",
+      "specs": {
+        "tank": "9 500 л",
+        "header": "9 м",
+        "yield": "до 45 т/ч",
+        "origin": "Россия"
+      }
+    },
+    {
+      "id": "8",
+      "slug": "kverneland-optima",
+      "name": "Kverneland Optima HD",
+      "brand": "Kverneland",
+      "category": "planters",
+      "year": 2022,
+      "hours": 540,
+      "horsepower": 0,
+      "price": 5600000,
+      "condition": "used",
+      "images": [
+        "/images/equipment/kverneland-optima-1.jpeg",
+        "/images/equipment/kverneland-optima-2.jpeg",
+        "/images/equipment/kverneland-optima-3.jpeg"
+      ],
+      "description": "Точная сеялка с электроприводом и контролем высева.",
+      "specs": {
+        "rows": "12 рядов",
+        "spacing": "45 см",
+        "monitor": "GeoSeed",
+        "width": "6 м"
+      }
+    },
+    {
+      "id": "9",
+      "slug": "jcb-435s",
+      "name": "JCB 435S Agri",
+      "brand": "JCB",
+      "category": "loaders",
+      "year": 2023,
+      "hours": 890,
+      "horsepower": 140,
+      "price": 6200000,
+      "condition": "used",
+      "images": [
+        "/images/equipment/jcb-435s-1.jpeg",
+        "/images/equipment/jcb-435s-2.jpeg",
+        "/images/equipment/jcb-435s-3.jpeg"
+      ],
+      "description": "Телескопический погрузчик для фермы и склада зерна.",
+      "specs": {
+        "lift": "4 200 кг",
+        "height": "7.5 м",
+        "bucket": "2.5 м³",
+        "drive": "4WD"
+      }
+    },
+    {
+      "id": "10",
+      "slug": "krone-big-x-1180",
+      "name": "Krone Big X 1180",
+      "brand": "Krone",
+      "category": "harvesters",
+      "year": 2020,
+      "hours": 1850,
+      "horsepower": 775,
+      "price": 35000000,
+      "condition": "used",
+      "images": [
+        "/images/equipment/krone-big-x-1180-1.jpeg",
+        "/images/equipment/krone-big-x-1180-2.jpeg",
+        "/images/equipment/krone-big-x-1180-3.jpeg"
+      ],
+      "description": "Силосоуборочный комбайн с широким подборщиком.",
+      "specs": {
+        "header": "12 м",
+        "tank": "8 000 л",
+        "chop": "44 мм",
+        "type": "Силос"
+      }
+    },
+    {
+      "id": "11",
+      "slug": "massey-ferguson-8s-305",
+      "name": "Massey Ferguson 8S.305",
+      "brand": "Massey Ferguson",
+      "category": "tractors",
+      "year": 2024,
+      "hours": 150,
+      "horsepower": 305,
+      "price": 12800000,
+      "condition": "new",
+      "images": [
+        "/images/equipment/massey-ferguson-8s-305-1.jpeg",
+        "/images/equipment/massey-ferguson-8s-305-2.jpeg",
+        "/images/equipment/massey-ferguson-8s-305-3.jpeg"
+      ],
+      "description": "Компактный трактор нового поколения с DATATRONIC 5.",
+      "specs": {
+        "transmission": "Dyna-VT",
+        "drive": "4WD",
+        "weight": "9 800 кг",
+        "warranty": "2 года"
+      }
+    },
+    {
+      "id": "12",
+      "slug": "horsch-avatar-12",
+      "name": "Horsch Avatar 12.50",
+      "brand": "Horsch",
+      "category": "planters",
+      "year": 2025,
+      "hours": 40,
+      "horsepower": 0,
+      "price": 9400000,
+      "condition": "new",
+      "images": [
+        "/images/equipment/horsch-avatar-12-1.jpeg",
+        "/images/equipment/horsch-avatar-12-2.jpeg",
+        "/images/equipment/horsch-avatar-12-3.jpeg"
+      ],
+      "description": "Посевной комплекс с центральным высевающим аппаратом.",
+      "specs": {
+        "rows": "12 рядов",
+        "width": "12.5 м",
+        "control": "Horsch Touch",
+        "warranty": "2 года"
+      }
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "updatedAt": "2026-05-21",
+    "imagesLocal": true
+  }
+}

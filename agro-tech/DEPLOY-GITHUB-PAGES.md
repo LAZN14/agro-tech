@@ -25,15 +25,19 @@ git remote add origin https://github.com/ВАШ_ЛОГИН/agro-tech.git
 git push -u origin main
 ```
 
-## 3. Включите GitHub Pages
+## 3. Включите GitHub Pages (обязательно!)
 
-1. Репозиторий на GitHub → **Settings** → **Pages**
-2. **Build and deployment** → Source: **GitHub Actions**
-3. После push в `main` откройте вкладку **Actions** — дождитесь зелёной галочки «Deploy to GitHub Pages»
+1. Репозиторий на GitHub → **Settings** → **Pages** (слева в блоке *Code and automation*)
+2. **Build and deployment** → **Source:** выберите **GitHub Actions** (не «Deploy from a branch»)
+3. Сохраните, если есть кнопка Save
+
+Если в **Actions** сборка зелёная, а **deploy** красный — Pages ещё не включены. После шага 2 откройте **Actions** → последний run → **Re-run all jobs**.
+
+## 4. Дождитесь деплоя
 
 Ссылка появится в **Settings → Pages** и в логе workflow.
 
-## 4. Локальная проверка (как на Pages)
+## 5. Локальная проверка (как на Pages)
 
 ```powershell
 $env:GITHUB_REPOSITORY = "user/agro-tech"
